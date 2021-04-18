@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh; // viewport height
+    background-color: $dark-blue;
+    color: $white;
+
+    .company-container {
+        display: flex;  
+        margin: 30px auto;
+        padding: 0 20px; 
+        .username-badge {
+            margin: 0 15px;
+        }
+        .company-info {
+            .name {
+                font-size: 20px;
+            }
+
+            .contact {
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.menu-container {
+    color: $grey-light;
+    margin-top: 100px;
+    ul {
+        text-align: center;
+        padding: 0;
+        li {
+            list-style: none;
+            height: 60px;
+            font-size: 24px;
+            margin: 10px 0;
+            cursor: pointer;
+
+            &:hover {
+                color: $dark-green;
+            }
+        }
+    }
+}

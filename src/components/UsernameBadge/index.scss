@@ -1,0 +1,12 @@
+
+@import '../../styles/variables.scss';
+
+.username-badge-container {
+    background-color: $green-light;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
