@@ -11,7 +11,7 @@ function BarChart(props) {
     const data = [10, 20, 30, 40, 50, 60, 70, 87, 40, 69, 78];
     const maxValue = data.sort()[data.length - 1];
     const range =  (((maxValue + "").length -  1) * 10) * 2;
-    console.log("range",range);
+
     useEffect( () => {
         const interval = setInterval( () => {
             const height = document.getElementById('bar-chart-container')?.clientHeight;
@@ -27,7 +27,7 @@ function BarChart(props) {
 
             }
         }, 500);
-    }, []);
+    }, [data.length]);
 
 
 
@@ -64,8 +64,7 @@ function BarChart(props) {
                                     x={ 50 + (widthOfColumn + gap) * index } 
                                     y={ height - (startY + ((value / maxValue) * (0.9 * height)))} 
                                     width={widthOfColumn} 
-                                    height={ (value / maxValue) * (0.9 * height)} 
-                                    // fill="#43aea8"
+                                    height={ (value / maxValue) * (0.9 * height)}
                                     fill="#bac2d4"
                                     strokeWidth="2">
                                          <title> {value} </title>
