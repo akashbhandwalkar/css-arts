@@ -1,0 +1,13 @@
+.bar-chart-container {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+
+.bar {
+    cursor: pointer;
+}
+
+.bar:hover {
+    fill: #43aea8;
+}

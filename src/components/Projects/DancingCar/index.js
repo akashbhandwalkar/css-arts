@@ -16,7 +16,7 @@ function CarWithHearts(props) {
                         </div>
                         <div className="tyres-top"></div>
                         <div className="truck-body">
-                            <div class="heart"></div> 
+                            <div className="heart"></div> 
                         </div>
                         <div className="truct-face">
                             <div className="window">

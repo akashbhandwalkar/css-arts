@@ -3,7 +3,7 @@ import './index.scss';
 function Footer(props) {
     return (
         <div className="footer-container">
-            Footer
+            {/* Footer */}
         </div>
     );
 }
